@@ -31,7 +31,7 @@ const PortfolioPage = () => {
       <PageIdentifier title="portfolio" />
       <main>
         <section className="pl-8 md:pl-24 lg:pl-[164px]">
-          <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-y-6 ">
+          <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-y-6 max-w-[1110px]">
             {portfolio.map((project) => (
               <ProjectCard
                 key={project.id}

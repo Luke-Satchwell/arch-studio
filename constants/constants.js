@@ -196,3 +196,26 @@ export const portfolio = [
     featured: false,
   },
 ];
+
+export const leaders = [
+  {
+    image: "/assets/about/desktop/avatar-jake.jpg",
+    name: "Jake Richards",
+    role: "Chief Architect",
+  },
+  {
+    image: "/assets/about/desktop/avatar-thompson.jpg",
+    name: "Thompson Smith",
+    role: "Head of Finance",
+  },
+  {
+    image: "/assets/about/desktop/avatar-jackson.jpg",
+    name: "Jackson Rourke",
+    role: "Lead Designer",
+  },
+  {
+    image: "/assets/about/desktop/avatar-maria.jpg",
+    name: "Maria Simpson",
+    role: "Senior Architect",
+  },
+];
