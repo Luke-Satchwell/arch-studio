@@ -81,7 +81,9 @@ const Form = () => {
               errors.name ? "error" : ""
             }`}
           />
-          {errors.name && <span className="error-message">Can't be empty</span>}
+          {errors.name && (
+            <span className="error-message">{`Can't be empty`}</span>
+          )}
         </div>
 
         <div className="input-wrapper">
@@ -96,7 +98,7 @@ const Form = () => {
             }`}
           />
           {errors.email && (
-            <span className="error-message">Can't be empty</span>
+            <span className="error-message">{`Can't be empty`}</span>
           )}
         </div>
 
@@ -111,7 +113,7 @@ const Form = () => {
             }`}
           />
           {errors.message && (
-            <span className="error-message">Can't be empty</span>
+            <span className="error-message">{`Can't be empty`}</span>
           )}
         </div>
 
