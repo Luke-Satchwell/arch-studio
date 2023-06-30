@@ -219,3 +219,20 @@ export const leaders = [
     role: "Senior Architect",
   },
 ];
+
+export const contactDetails = [
+  {
+    id: 1,
+    office: "Main Office",
+    email: "archone@mail.com ",
+    address: "1892 Chenoweth Drive TN",
+    phone: "123-456-3451",
+  },
+  {
+    id: 2,
+    office: "Office II",
+    email: "archtwo@mail.com",
+    address: "3399 Wines Lane TX",
+    phone: "832-123-4321",
+  },
+];

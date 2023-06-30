@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 import LargeHeading from "./LargeHeading";
 
 const Header = ({ image, title, description, page }) => {
