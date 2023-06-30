@@ -77,7 +77,7 @@ const ContactPage = () => {
           </div>
         </section>
         <section id="map">
-          <div className="mt-[71px] lg:mt-[80px] xl">
+          <div className="mt-[71px] lg:mt-[80px]">
             <Image
               src={`/assets/contact/${screenSize}/image-map.png`}
               alt="map"
