@@ -41,7 +41,7 @@ const Navbar = () => {
             <Link
               key={link.text}
               href={link.to}
-              className="uppercase font-bold text-gray-500 hover:text-zinc-900 cursor-pointer"
+              className="capitalize font-bold text-gray-500 hover:text-zinc-900 cursor-pointer"
             >
               {link.text}
             </Link>
